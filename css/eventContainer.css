@@ -1,0 +1,69 @@
+.success {
+    background-color: antiquewhite;
+}
+
+.table-container {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#btnView {
+    background-color: rgb(211, 211, 211);
+}
+
+.EventMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total-info {
+    margin-left: 250px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#newEventBtn {
+    background-color: aquamarine;
+    height: 40px;
+}
+
+.table-container {
+    padding: 20px;
+}
+
+.EventMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table {
+    background-color: rgb(202, 202, 202)beb;
+    color: #000;
+}
+
+.table th {
+    background-color: #55c9fa;
+    color: #fff;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.total-info {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#inputDateEvent {
+    margin-top: 2000px;
+}

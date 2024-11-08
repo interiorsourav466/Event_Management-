@@ -1,0 +1,154 @@
+/* Google Forms-inspired Styling */
+
+
+/* body {
+    font-family: 'Arial', sans-serif;
+     background-color: #f5f5f5; 
+}  */
+
+.eventHeadingBox {
+    margin-bottom: 50px;
+}
+
+#eventHeadingBoxH2 {
+    font-size: 40px;
+    color: #030703;
+}
+
+.EventContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #84aff9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: auto;
+    /* background-image: url("/Images/food.jpg");
+    opacity: 0.5; */
+}
+
+.infoForm1 {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.infoForm1 .form-group label {
+    font-size: 16px;
+    color: #5f6368;
+    margin-bottom: 2px;
+    color: black;
+    font-weight: 800;
+}
+
+.infoForm1 .form-group input,
+.infoForm1 .form-group select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background-color: white;
+    transition: border-color 0.3s ease-in-out;
+    color: black;
+}
+
+.infoForm1 .form-group input:focus,
+.infoForm1.form-group select:focus {
+    border-color: #4285f4;
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    color: #5f6368;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+    background-color: #3367d6;
+}
+
+
+/* Right box summary */
+
+.rightBox {
+    margin-top: 100px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.eventUpBox h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.eventUpBox p,
+.eventUpBox h4 {
+    font-size: 18px;
+    color: #202124;
+    margin: 5px 0;
+}
+
+.eventDownBox {
+    margin-top: 30px;
+}
+
+.EventSubmitButton {
+    padding: 10px 20px;
+    background-color: #531ed0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.EventSubmitButton:hover {
+    background-color: #17b240;
+}
+
+#name1,
+#age1,
+#gender {
+    width: 200px;
+    height: 40px;
+}
+
+#CSVDownloadCsvButton {
+    padding: 10px 20px;
+    background-color: #531ed0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+}
